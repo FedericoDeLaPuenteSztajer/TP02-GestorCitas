@@ -1,5 +1,6 @@
-import './App.css'
+//import './App.css'
 import Formulario from './Formulario.jsx'
+import Listado from './Listado.jsx'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div class="container">
         <div class="row">
           <Formulario />
+          <Listado />
         </div>
       </div>
     </>
